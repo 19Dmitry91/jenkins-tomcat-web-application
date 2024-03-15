@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String hello() {
-        return "<H1>HELLO FROM CONTROLLER NEXT TRY</H1>";
+        return "<H1>HELLO FROM CONTROLLER!!!</H1>";
     }
 }
 
